@@ -10,8 +10,6 @@ services:
     container_name: "angular-pw"
     volumes:
       - ./:/usr/src/app/
-#      - ../config:/usr/src/app/config
-#      - ../mock:/usr/src/app/mock
 
 networks:
   default:
